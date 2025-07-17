@@ -1,10 +1,3 @@
 <template>
-    <nav>
-        <ul>
-            <li><strong>Task menu</strong></li>
-        </ul>
-        <ul>
-            <li><a href="#">Create task</a></li>
-        </ul>
-    </nav>
+    <h1>Persus</h1>
 </template>
