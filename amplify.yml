@@ -3,16 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd nuxtask
         - npm ci
     build:
       commands:
-        - cd nuxtask
         - npx nuxi generate
   artifacts:
-    baseDirectory: nuxtask/.output/public
+    baseDirectory: .output/public
     files:
       - '**/*'
   cache:
     paths:
-      - nuxtask/node_modules/**/*
+      - node_modules/**/*
